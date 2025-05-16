@@ -1,0 +1,156 @@
+<>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Association Étincelle</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    header img {
+      max-width: 300px;
+      height: auto;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #b93c64;
+    }
+    .cta {
+      background: #b93c64;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    footer {
+      text-align: center;
+      background: #f4f4f4;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .image-block {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .image-block img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .testimonial {
+      margin-top: 40px;
+    }
+    .testimonial h2 {
+      margin-bottom: 20px;
+    }
+    .testimonial-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    .testimonial-item img {
+      border-radius: 8px;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+    .testimonial-item p {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="20240307_062203.jpg" alt="Logo Association Étincelle" />
+</header>
+
+<section>
+  <h1>Bienvenue à l'Association Étincelle</h1>
+  <p>Nous offrons une aide financière <strong>non remboursable</strong> aux personnes dans le besoin ayant un projet clair et précis.</p>
+
+  <div class="image-block">
+    <img src="20240416_211210.jpg" alt="Photo de groupe bénéficiaires Association Étincelle" />
+  </div>
+
+  <div class="card">
+    <h2>💡 À qui s’adresse l’aide ?</h2>
+    <p>À toute personne dans le besoin ayant un projet défini : professionnel, éducatif, social ou personnel.</p>
+  </div>
+
+  <div class="card">
+    <h2>💶 Montant de l’aide</h2>
+    <p>Entre <strong>1 000 € et 100 000 €</strong> selon la nature et la solidité du projet présenté.</p>
+  </div>
+
+  <div class="card">
+    <h2>✅ Conditions</h2>
+    <ul>
+      <li>Avoir un projet précis</li>
+      <li>Remplir un formulaire de demande</li>
+      <li>Payer les frais d’établissement de l’aide</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>📩 Faire une demande</h2>
+    <p>Envoyez votre demande via le formulaire ou contactez-nous directement :</p>
+    <a href="mailto:aideassociationetincelle@gmail.com" class="cta">Nous contacter par email</a>
+  </div>
+
+  <div class="testimonial">
+    <h2>🗣️ Témoignages</h2>
+
+    <div class="testimonial-item">
+      <img src="20240416_211210.jpg" alt="Bénéficiaire heureux avec un chèque" />
+      <p>« Grâce à l’aide de l’Association Étincelle, j’ai pu lancer mon petit atelier de couture. Un grand merci pour ce soutien précieux ! »</p>
+      <strong>— Fatou, bénéficiaire</strong>
+    </div>
+
+    <div class="testimonial-item">
+      <img src="20240416_211210.jpg" alt="Bénéficiaires souriants avec l'équipe de l'association" />
+      <p>« Cette aide est tombée au bon moment. Mon projet éducatif pour les jeunes de mon quartier a pu voir le jour. »</p>
+      <strong>— Jean-Michel, éducateur</strong>
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+  © 2025 Association Étincelle — Votre liberté financière, notre objectif
+</footer>
+
+</body>
+</html>
